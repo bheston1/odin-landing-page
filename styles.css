@@ -156,3 +156,42 @@ footer {
     text-align: right;
     margin-top: -20px;
 }
+
+.call-to-action-section-container {
+    padding: 40px;
+}
+
+.cta-text {
+    color: #f9faf8;
+    font-size: 18px;
+    margin-left: 80px;
+}
+
+.cta-box-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.odin-button {
+    background-color: #3882f6;
+    border:2px solid #f9faf8;
+    border-radius: 5px;
+    color: #f9faf8;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.odin-button-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: flex-start;
+}
