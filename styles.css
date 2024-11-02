@@ -10,7 +10,7 @@ footer {
 .header-top-bar {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
 
@@ -37,6 +37,11 @@ footer {
     color: #e5e7eb;
 }
 
+.hyperlink {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
 .header-logo-text {
     font-size: 24px;
     color: #f9faf8;
@@ -45,7 +50,7 @@ footer {
 .header-main-container {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 75%;
     margin: auto;
     margin-top: 80px;
 }
@@ -54,19 +59,45 @@ footer {
     width: 50%;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .copyright-text {
     color: #e5e7eb;
+    text-align: center;
+    margin: auto;
 }
 
-.sign-up-button {
+footer {
+    padding: 30px;
+}
+
+.learn-more-button {
     background-color: #3882f6;
     width: 150px;
     height: 40px;
     text-align: center;
-    color: #f9faf8;
+    color: #e5e7eb;
     font-size: 18px;
     border: 1px solid #3882f6;
     border-radius: 12px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.learn-more-button:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.info-header-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin: auto;
+}
+
+.cover-image {
+    margin-bottom: 80px;
 }
