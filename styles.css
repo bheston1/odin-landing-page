@@ -96,8 +96,40 @@ footer {
     font-weight: 900;
     text-align: center;
     margin: auto;
+    margin-top: 40px;
+}
+
+.info-subtext {
+    color: #1f2937;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
 }
 
 .cover-image {
     margin-bottom: 80px;
+}
+
+.info-section-container {
+    margin-bottom: 60px;
+}
+
+.info-squares {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wall-image {
+    border: 5px solid #3882f6;
+    border-radius: 18px;
+    margin: 5px;
+    margin-bottom: -15px
+}
+
+.wall-image-desc {
+    text-align: center;
+    color: #1f2937
 }
