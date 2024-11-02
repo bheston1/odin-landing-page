@@ -133,3 +133,26 @@ footer {
     text-align: center;
     color: #1f2937
 }
+
+.quote-section-container {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color:#1f2937
+}
+
+.quote-speaker {
+    text-align: right;
+    margin-top: -20px;
+}
